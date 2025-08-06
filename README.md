@@ -27,3 +27,45 @@ The script repeatedly prompts the user with the following options:
 
 ## Sample Run
 
+want to add task ? 
+ press 1 to enter the task 
+ press 2 to mark as complete and remove 
+ press 3 to view the to do list 
+ enter 4 to exit:1
+enter the task:reading
+task added successfully
+
+enter choice again: 1
+enter the task:market
+task added successfully
+
+enter choice again: 1
+enter the task:repair
+task added successfully
+
+enter choice again: 3
+To Do List
+enter the task:market
+task added successfully
+
+enter choice again: 1
+enter the task:repair
+task added successfully
+
+enter choice again: 3
+To Do List
+reading
+market
+repair
+
+enter choice again: 2
+['reading', 'market', 'repair']
+enter the task to remove from above list:repair
+Task removed
+
+enter choice again: 3
+To Do List
+reading
+market
+
+enter choice again: 4
